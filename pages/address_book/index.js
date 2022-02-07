@@ -26,7 +26,7 @@ const AderessBook = ({ metadata }) => {
           <div className="mt-2 ml-2">
             {Object.keys(metadata).map((district) => {
               return (
-                <Link href={`/address_book/${district}`}>
+                <Link href={`/address_book/${district}`} key={district}>
                   <a>
                     <div className="text-lg hover:bg-gray-100">
                       {titlize(district)}   

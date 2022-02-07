@@ -52,7 +52,7 @@ const Block = ({ data }) => {
           <div> 
             {Object.keys(data).map((k) => {
               return (
-                <AddressLink data={data[k]} idx={k} />
+                <AddressLink data={data[k]} idx={k} key={k} />
               )
             })}
           </div>

@@ -48,7 +48,7 @@ const District = ({ data }) => {
           <div className="mt-2">
             {Object.keys(data).map((block) => {
               return (
-                <Link href={`/address_book/${router.query.district}/${block}`}>
+                <Link href={`/address_book/${router.query.district}/${block}`} key={block}>
                   <a>
                     <div className="ml-2 hover:bg-gray-100">
                       {titlize(block)}

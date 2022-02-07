@@ -68,7 +68,7 @@ export const Address = ({ data }) => {
           <div className="grid grid-cols-2 mt-2">
             {Object.keys(data.metadata.attributes).map((attr) => {
               return (
-                <div className="flex">
+                <div className="flex" key={attr}>
                   <p className="font-semibold">{titlize(attr)}:</p> <p className="ml-2">{titlize(data.metadata.attributes[attr])}</p>
                 </div>
               );
