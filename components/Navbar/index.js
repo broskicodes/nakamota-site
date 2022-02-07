@@ -18,7 +18,7 @@ export const Navbar = ({ children }) => {
           </Link>
           <div className="text-xs mt-3 ml-1">
             By 
-            <a href="https://metavillage.app/" target="_blank" className="ml-1 hover:underline">
+            <a href="https://metavillage.app/" target="_blank" rel="noreferrer" className="ml-1 hover:underline">
               Metavillage
             </a>
           </div>
@@ -30,10 +30,10 @@ export const Navbar = ({ children }) => {
               Aderess Book
             </a>
           </Link>
-          <a href="https://twitter.com/NakamotaMV" target="_blank" className="my-auto">
+          <a href="https://twitter.com/NakamotaMV" target="_blank" rel="noreferrer" className="my-auto">
             <Image src="/imgs/twitter-logo.svg" width={50} height={50} />
           </a>
-          <a href="https://t.co/rq760C14KB" target="_blank" className="my-auto mr-2">
+          <a href="https://t.co/rq760C14KB" target="_blank" rel="noreferrer" className="my-auto mr-2">
             <Image src="/imgs/discord-logo.svg" width={45} height={45} />
           </a>
         </div>

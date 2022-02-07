@@ -43,10 +43,10 @@ export const Address = ({ data }) => {
         </div>
         <div className="mt-4 flex justify-around">
           <div>
-            Resident: <a className="text-blue-400" href={`https://solscan.io/account/${owner}`} target="_blank"> {owner}↗ </a>
+            Resident: <a className="text-blue-400" href={`https://solscan.io/account/${owner}`} target="_blank" rel="noreferrer"> {owner}↗ </a>
           </div>
           <div>
-            <a className="text-blue-400" href={data.metadata.vpLink} target="_blank">Villa Page ↗</a>
+            <a className="text-blue-400" href={data.metadata.vpLink} target="_blank" rel="noreferrer">Villa Page ↗</a>
           </div>
         </div>
         <div className="mt-6">
